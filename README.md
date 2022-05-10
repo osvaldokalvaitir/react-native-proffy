@@ -1,130 +1,70 @@
-# React Native - Proffy
+<h1 align="center">
+    <img src="/.github/assets/logo.svg"
+    width="200px"
+    alt="Logo" />
+</h1>
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/react-native-proffy/blob/master/LICENSE)
-![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/react-native-proffy.svg)
-![](https://img.shields.io/github/last-commit/osvaldokalvaitir/react-native-proffy.svg?color=red)
-![](https://img.shields.io/github/languages/top/osvaldokalvaitir/react-native-proffy.svg?color=yellow)
-![](https://img.shields.io/github/languages/count/osvaldokalvaitir/react-native-proffy.svg?color=lightgrey)
-![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/react-native-proffy.svg)
-![](https://img.shields.io/github/repo-size/osvaldokalvaitir/react-native-proffy.svg?color=blueviolet)
-[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
+<h3 align="center">
+  React Native - Proffy
+</h3>
 
-Aplicação Proffy usando React Native, Expo, TypeScript, @react-navigation/native, @react-navigation/stack, @react-navigation/bottom-tabs, React Native Async Storage e expo-font consumindo os recursos da API do [Node.js - Proffy](https://github.com/osvaldokalvaitir/nodejs-proffy).
+<p align="center">
+  :books: Proffy Application using React Native, Expo, TypeScript, @react-navigation/native, @react-navigation/stack, @react-navigation/bottom-tabs, React Native Async Storage, expo-font and consuming the features of the Node.js - Proffy API
+</p>
 
-## Índice
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osvaldokalvaitir/react-native-proffy.svg?color=00A83A">
 
-- [Capturas de Tela](#capturas-de-tela)
+  <img alt="GitHub language top" src="https://img.shields.io/github/languages/top/osvaldokalvaitir/react-native-proffy.svg?color=00A83A">
 
-  - [Home](#home)
+  <a href="https://kalvaitir.com/">
+    <img alt="Made by Kalvaitir" src="https://img.shields.io/badge/made%20by-Kalvaitir-00A83A">
+  </a>
 
-  - [Estudar - Filtros](#estudar---filtros)
-  
-  - [Estudar - Disponíveis](#estudar---disponíveis)
-  
-  - [Estudar - Favoritos](#estudar---favoritos)
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-00A83A">
+</p>
 
-  - [Dar aulas](#dar-aulas)
+<p align="center">
+  <a href="#iphone-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#wrench-install-and-run">Install and run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#memo-license">License</a>
+</p>
 
-- [Desenvolvimento](#desenvolvimento)
+## :iphone: Demo
 
-  - [Configuração do Ambiente](#configuração-do-ambiente)
+![Demo](/.github/assets/demo.gif)
 
-  - [Instalação do Projeto](#instalação-do-projeto)
+## :wrench: Install and run
 
-  - [Execução do Projeto](#execução-do-projeto)
+_ps: Before running the app, start the [Node.js - Proffy](https://github.com/osvaldokalvaitir/nodejs-proffy) backend._
 
-- [Utilizados no Projeto](#utilizados-no-projeto)
+Open terminal:
 
-  - [Bibliotecas](#bibliotecas)
+```sh
+# Clone this repo
+git clone https://github.com/osvaldokalvaitir/react-native-proffy
 
-  - [APIs](#apis)
+# Entry in folder
+cd react-native-proffy
 
-## Capturas de Tela
+# Install deps with npm or yarn
+npm install | yarn
 
-### Home
+# Launch the app on ios with expo
+expo start
 
-![Home](/.github/assets/home.png)
-Esta é a primeira tela, que é a apresentação do projeto, podendo escolher entre estudar e dar aulas, exibe também o total de conexões realizadas.
+# The Metro Bundler will open in the browser tab.
 
-### Estudar - Filtros
+# Click 'Run on Android device/emulator' to run the project in Android emulator.
+# ps: On Android, you need to accept a permission before installing.
 
-![Study - Filters](/.github/assets/study-filters.png)
-Nesta tela, é necessário escolher os filtros para exibir os professores disponíveis.
+# Click 'Run on iOS simulator' to run the project in iOS emulator.
+```
 
-### Estudar - Disponíveis
+## :memo: License
 
-![Study - Available](/.github/assets/study-available.png)
-Nesta tela, é exibido todos os professores disponíveis de acordo com o filtro escolhido, podendo salvar o professor nos favoritos ou entrar em contato.
+This project is under the MIT license. See [LICENSE](/LICENSE) for more information.
 
-### Estudar - Favoritos
+---
 
-![Study - Favorites](/.github/assets/study-favorites.png)
-Nesta tela, exibe todos os professores que foram salvos como favoritos, ficando gravados no banco de dados Async Storage do smartphone.
-
-### Dar aulas
-
-![Teach](/.github/assets/teach.png)
-Nesta tela, é exibida uma mensagem indicando que o professor que deseja dar aulas precisa se cadastrar pela plataforma web.
-
-## Desenvolvimento
-
-### Configuração do Ambiente
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga `Configuração de Ambiente`.
-
-### Instalação do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Instalação de Projeto`.
-
-### Execução do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/expo-cli.md) e siga `Execução de Projeto para Desenvolvimento no React Native no Emulador Android e iOS`.
-
-## Utilizados no Projeto
-
-### Bibliotecas
-
-- [@react-navigation/bottom-tabs](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/@react-navigation-bottom-tabs.md)
-
-- [@react-navigation/native](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/@react-navigation-native.md)
-
-- [@react-navigation/stack](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/@react-navigation-stack.md)
-
-- [@expo-google-fonts/archivo](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/@expo-google-fonts-archivo.md)
-
-- [@expo-google-fonts/poppins](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/@expo-google-fonts-poppins.md)
-
-- [Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
-
-- [Expo CLI](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/expo-cli.md)
-
-- [expo-font](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/expo-font.md)
-
-- [React Native Async Storage](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/@react-native-community-async-storage.md)
-
-- [React Native Gesture Handler](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-gesture-handler.md)
-
-- [React Native MaskedView](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/@react-native-community-masked-view.md)
-
-- [react-native-reanimated](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-reanimated.md)
-
-- [react-native-safe-area-context](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-safe-area-context.md)
-
-- [react-native-screens](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-screens.md)
-
-- [TypeScript](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/typescript.md)
-
-### APIs
-
-- **[Node.js - Proffy](https://github.com/osvaldokalvaitir/nodejs-proffy)**
-
-  - **Rotas**
-
-    - Classes
-
-      - Lista classes
-
-    - Conexões
-
-      - Exibe total de conexões
-      - Cria conexões
+<p align="center">
+Developed with 💚 by <a href="https://www.linkedin.com/in/osvaldokalvaitir">Osvaldo Kalvaitir Filho</a>
+</p>
