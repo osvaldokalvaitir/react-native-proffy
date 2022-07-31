@@ -49,7 +49,7 @@ cd react-native-proffy
 npm install | yarn
 
 # Launch the app on ios with expo
-npm start | yarn start
+npm run start | yarn start
 
 # The Metro Bundler will open in the browser tab.
 
